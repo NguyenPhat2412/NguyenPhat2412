@@ -15,6 +15,6 @@ You can click the Preview link to take a look at your changes.
     <img src="https://github-readme-stats.vercel.app/api?username=NguyenPhat2412&show_icons=true&theme=chartreuse-dark&count_private=true">
   </a><br>
   <a>
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=justgondev&layout=compact&theme=blue-green">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NguyenPhat2412&layout=compact&theme=blue-green">
   </a>
 </hr>
