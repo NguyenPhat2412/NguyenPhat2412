@@ -1,9 +1,9 @@
 ## 👋 Hi there, I'm Nguyen Phat  
 
-- 👀 I’m interested in **web development, e-commerce platforms, and modern JavaScript frameworks**  
+- 👀 I’m interested in **web development, e-commerce platforms, and modern JavaScript frameworks**   
 - 🌱 I’m currently learning **ReactJS, NodeJS, MongoDB, and system design**  
 - 💞️ I’m looking to collaborate on **open-source projects and innovative web applications**  
-- 📫 How to reach me: **[your email here]** | **[LinkedIn/GitHub link]**  
+- 📫 How to reach me: **[masterrio2412@gmail.com]** | **[https://www.linkedin.com/in/xu%C3%A2n-ph%C3%A1t-nguy%E1%BB%85n-49b063332/?trk=opento_sprofile_goalscard]**  
 - 😄 Pronouns: **He/Him**  
 - ⚡ Fun fact: I started coding with curiosity, but it quickly turned into my passion 🚀  
 - Study VietNam Japan University
