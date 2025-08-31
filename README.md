@@ -6,7 +6,7 @@
 - 📫 How to reach me: **[masterrio2412@gmail.com]** | **[https://www.linkedin.com/in/xu%C3%A2n-ph%C3%A1t-nguy%E1%BB%85n-49b063332/?trk=opento_sprofile_goalscard]**  
 - 😄 Pronouns: **He/Him**  
 - ⚡ Fun fact: I started coding with curiosity, but it quickly turned into my passion 🚀  
-- Study VietNam Japan University
+- Study VietNam Japan University, VietNam Nation University
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/NguyenPhat) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Phatphit2412) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/xu%C3%A2n-ph%C3%A1t-nguy%E1%BB%85n-49b063332/?trk=opento_sprofile_goalscard) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:masterrio2412@gmail.com) 
