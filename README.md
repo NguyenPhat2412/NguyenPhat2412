@@ -710,11 +710,15 @@ The architecture, engineering decisions, and technical depth behind those system
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
+</picture>
 
 </div>
 
-The contribution animation requires the corresponding GitHub Actions workflow to generate the SVG in the profile repository.
+The contribution animation is generated automatically every 12 hours by [GitHub Actions](https://github.com/NguyenPhat2412/NguyenPhat2412/actions/workflows/snake.yml).
 
 🧑‍💻 Development Philosophy
 
