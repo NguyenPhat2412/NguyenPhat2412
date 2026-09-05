@@ -1,24 +1,20 @@
 <div align="center">
 
-⚡ NGUYEN PHAT
+# ⚡ NGUYEN PHAT
 
 Senior Full-Stack Engineer · Software Architecture · Distributed Systems
 
 I design and build scalable, maintainable, and production-oriented software systems.
 
-<br/>
-
-
-
-
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2800&pause=900&color=00FF9C&center=true&vCenter=true&width=900&lines=Full-Stack+Engineering;Software+Architecture;Real-Time+Systems;Distributed+Systems;API+Design;Performance+Engineering;Cloud+%26+DevOps;Building+for+Scale" alt="Typing SVG" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;size=18&amp;duration=2800&amp;pause=900&amp;color=00FF9C&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Full-Stack+Engineering;Software+Architecture;Real-Time+Systems;Distributed+Systems;API+Design;Performance+Engineering;Cloud+%26+DevOps;Building+for+Scale" />
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;size=18&amp;duration=2800&amp;pause=900&amp;color=087F5B&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Full-Stack+Engineering;Software+Architecture;Real-Time+Systems;Distributed+Systems;API+Design;Performance+Engineering;Cloud+%26+DevOps;Building+for+Scale" />
+  <img width="600" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;size=18&amp;duration=2800&amp;pause=900&amp;color=087F5B&amp;center=true&amp;vCenter=true&amp;width=600&amp;lines=Full-Stack+Engineering;Software+Architecture;Real-Time+Systems;Distributed+Systems;API+Design;Performance+Engineering;Cloud+%26+DevOps;Building+for+Scale" alt="Engineering focus: full-stack, architecture, real-time and distributed systems, APIs, performance, cloud and DevOps" />
+</picture>
 
 </div>
 
-👨‍💻 Engineering Profile
+## 👨‍💻 Engineering Profile
 
 I am a Senior Full-Stack Engineer focused on building complete software systems — from frontend experiences and backend APIs to databases, messaging, deployment, and system architecture.
 
@@ -32,153 +28,102 @@ Understand → Design → Implement → Test → Observe → Optimize → Scale
 
 I care about how a system behaves when traffic increases, when services fail, when data grows, when APIs evolve, and when another engineer needs to maintain the code months later.
 
-What I focus on
+**What I focus on**
 
-Area
+| Area | Engineering focus |
+| --- | --- |
+| 🏗️ Architecture | Modular design, service boundaries, scalability, maintainability |
+| ⚙️ Backend | API design, business logic, authentication, validation, concurrency |
+| 🎨 Frontend | React applications, reusable components, state management, UX |
+| 🔄 Real-Time | WebSocket, Socket.io, event-driven communication |
+| 📨 Distributed Systems | Kafka, asynchronous processing, event-driven architecture |
+| 🗄️ Data | MongoDB, MySQL, SQL Server, schema and query design |
+| 🚀 Performance | Efficient APIs, frontend optimization, caching strategies |
+| 🔐 Security | Authentication, authorization, validation, secure API practices |
+| 🐳 Infrastructure | Docker, Docker Compose, deployment workflows |
+| 📊 Engineering Quality | Testing, observability, debugging, clean code, documentation |
 
-Engineering Focus
+## 🧠 Engineering Mindset
 
-🏗️ Architecture
+<details>
+<summary>Explore engineering mindset</summary>
 
-Modular design, service boundaries, scalability, maintainability
+```text
+            ┌─────────────────────────┐
+            │       REQUIREMENTS      │
+            └────────────┬────────────┘
+                         │
+                         ▼
+            ┌─────────────────────────┐
+            │   SYSTEM ARCHITECTURE   │
+            └────────────┬────────────┘
+                         │
+       ┌─────────────────┼─────────────────┐
+       ▼                 ▼                 ▼
+┌─────────────┐   ┌─────────────┐   ┌─────────────┐
+│   FRONTEND  │   │   BACKEND   │   │    DATA     │
+└──────┬──────┘   └──────┬──────┘   └──────┬──────┘
+       │                 │                 │
+       └─────────────────┼─────────────────┘
+                         ▼
+            ┌─────────────────────────┐
+            │  EVENTS / REAL-TIME     │
+            │ Kafka · WebSocket       │
+            └────────────┬────────────┘
+                         │
+                         ▼
+            ┌─────────────────────────┐
+            │       OBSERVE           │
+            │ Metrics · Logs · Tests  │
+            └────────────┬────────────┘
+                         │
+                         ▼
+            ┌─────────────────────────┐
+            │ OPTIMIZE → SCALE → SHIP  │
+            └─────────────────────────┘
+```
 
-⚙️ Backend
+</details>
 
-API design, business logic, authentication, validation, concurrency
+## 🧩 Technology Stack
 
-🎨 Frontend
-
-React applications, reusable components, state management, UX
-
-🔄 Real-Time
-
-WebSocket, Socket.io, event-driven communication
-
-📨 Distributed Systems
-
-Kafka, asynchronous processing, event-driven architecture
-
-🗄️ Data
-
-MongoDB, MySQL, SQL Server, schema and query design
-
-🚀 Performance
-
-Efficient APIs, frontend optimization, caching strategies
-
-🔐 Security
-
-Authentication, authorization, validation, secure API practices
-
-🐳 Infrastructure
-
-Docker, Docker Compose, deployment workflows
-
-📊 Engineering Quality
-
-Testing, observability, debugging, clean code, documentation
-
-🧠 Engineering Mindset
-
-                    ┌─────────────────────────┐
-                    │       REQUIREMENTS      │
-                    └────────────┬────────────┘
-                                 │
-                                 ▼
-                    ┌─────────────────────────┐
-                    │   SYSTEM ARCHITECTURE   │
-                    └────────────┬────────────┘
-                                 │
-               ┌─────────────────┼─────────────────┐
-               ▼                 ▼                 ▼
-        ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
-        │   FRONTEND  │   │   BACKEND   │   │    DATA     │
-        └──────┬──────┘   └──────┬──────┘   └──────┬──────┘
-               │                 │                 │
-               └─────────────────┼─────────────────┘
-                                 ▼
-                    ┌─────────────────────────┐
-                    │  EVENTS / REAL-TIME     │
-                    │ Kafka · WebSocket       │
-                    └────────────┬────────────┘
-                                 │
-                                 ▼
-                    ┌─────────────────────────┐
-                    │       OBSERVE           │
-                    │ Metrics · Logs · Tests  │
-                    └────────────┬────────────┘
-                                 │
-                                 ▼
-                    ┌─────────────────────────┐
-                    │ OPTIMIZE → SCALE → SHIP  │
-                    └─────────────────────────┘
-
-🧩 Technology Stack
-
-Languages
+### Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=ts,js,java,python,html,css" />
+<img src="https://skillicons.dev/icons?i=ts,js,java,python,html,css&amp;perline=4" alt="TypeScript, JavaScript, Java, Python, HTML5, CSS3" />
 </p>
 
-Technology
+| Technology | Focus |
+| --- | --- |
+| TypeScript | Type-safe application development |
+| JavaScript | Modern web development |
+| Java | Object-oriented and backend development |
+| Python | Automation, data processing, analytics |
+| HTML5 | Semantic application structure |
+| CSS3 | Responsive and modern UI styling |
 
-Focus
-
-TypeScript
-
-Type-safe application development
-
-JavaScript
-
-Modern web development
-
-Java
-
-Object-oriented and backend development
-
-Python
-
-Automation, data processing, analytics
-
-HTML5
-
-Semantic application structure
-
-CSS3
-
-Responsive and modern UI styling
-
-Frontend Engineering
+### Frontend Engineering
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind&amp;perline=4" alt="React, Next.js, Vite, Tailwind CSS" />
 </p>
 
-Core technologies
+**Core technologies**
 
-React
+- React
+- Next.js
+- TypeScript
+- Vite
+- React Native
+- Tailwind CSS
+- Redux
+- Socket.io client
+- React Leaflet
+- Leaflet / GeoJSON
 
-Next.js
+**Frontend principles**
 
-TypeScript
-
-Vite
-
-React Native
-
-Tailwind CSS
-
-Redux
-
-Socket.io client
-
-React Leaflet
-
-Leaflet / GeoJSON
-
-Frontend principles
-
+```text
 Reusable Components
         ↓
 Predictable State
@@ -190,35 +135,29 @@ API Contracts
 Performance Optimization
         ↓
 Responsive UX
+```
 
-Backend & API Engineering
+### Backend & API Engineering
 
 <p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi&amp;perline=4" alt="Node.js, Express, FastAPI" />
 </p>
 
-Technologies
+**Technologies**
 
-Node.js
+- Node.js
+- Express.js
+- FastAPI
+- REST APIs
+- WebSocket
+- Socket.io
+- Authentication & Authorization
+- API validation
+- Event-driven communication
 
-Express.js
+**Backend architecture mindset**
 
-FastAPI
-
-REST APIs
-
-WebSocket
-
-Socket.io
-
-Authentication & Authorization
-
-API validation
-
-Event-driven communication
-
-Backend architecture mindset
-
+```text
 HTTP Request
      │
      ▼
@@ -235,66 +174,61 @@ Domain Logic
      ├──────────────► Cache
      │
      └──────────────► Event / Message Broker
+```
 
-Distributed Systems & Real-Time
+### Distributed Systems & Real-Time
 
 <p>
-<img src="https://skillicons.dev/icons?i=kafka,docker" />
+<img src="https://skillicons.dev/icons?i=kafka,docker&amp;perline=4" alt="Kafka, Docker" />
 </p>
 
 I am particularly interested in systems where components communicate asynchronously and data must move reliably between services.
 
-Key technologies
+**Key technologies**
 
-Apache Kafka
+- Apache Kafka
+- WebSocket
+- Socket.io
+- Event-driven architecture
+- Producer / Consumer patterns
+- Asynchronous processing
+- Real-time data streaming
+- Service decoupling
 
-WebSocket
+**Event-driven model**
 
-Socket.io
+```text
+       Producer
+          │
+          ▼
+    ┌────────────┐
+    │   Kafka    │
+    └─────┬──────┘
+          │
+    ┌─────┼─────┐
+    ▼     ▼     ▼
+Consumer Consumer Consumer
+   A        B       C
+   │        │       │
+   ▼        ▼       ▼
+Service  Analytics  Notification
+```
 
-Event-driven architecture
-
-Producer / Consumer patterns
-
-Asynchronous processing
-
-Real-time data streaming
-
-Service decoupling
-
-Event-driven model
-
-        Producer
-           │
-           ▼
-     ┌────────────┐
-     │   Kafka    │
-     └─────┬──────┘
-           │
-     ┌─────┼─────┐
-     ▼     ▼     ▼
- Consumer Consumer Consumer
-    A        B       C
-    │        │       │
-    ▼        ▼       ▼
- Service  Analytics  Notification
-
-🗄️ Database Engineering
+### 🗄️ Database Engineering
 
 <p>
-<img src="https://skillicons.dev/icons?i=mongodb,mysql" />
+<img src="https://skillicons.dev/icons?i=mongodb,mysql&amp;perline=4" alt="MongoDB, MySQL" />
 </p>
 
-Databases
+**Databases**
 
-MongoDB
+- MongoDB
+- MySQL
+- Microsoft SQL Server
 
-MySQL
+**Database principles**
 
-Microsoft SQL Server
-
-Database principles
-
+```text
 Data Modeling
       ↓
 Indexes
@@ -308,70 +242,65 @@ Consistency
 Performance
       ↓
 Observability
+```
 
 I care about choosing the database model based on workload and domain requirements rather than treating every problem as either "SQL" or "NoSQL".
 
-🐳 DevOps & Infrastructure
+### 🐳 DevOps & Infrastructure
 
 <p>
-<img src="https://skillicons.dev/icons?i=docker,git,github,vercel" />
+<img src="https://skillicons.dev/icons?i=docker,git,github,vercel&amp;perline=4" alt="Docker, Git, GitHub, Vercel" />
 </p>
 
-Tools
+**Tools**
 
-Git
+- Git
+- GitHub
+- Docker
+- Docker Compose
+- Vercel
+- Render
+- npm
+- VS Code
+- Postman
+- Figma
 
-GitHub
+**Containerized architecture**
 
-Docker
+```text
+          ┌───────────────────┐
+          │      CLIENT       │
+          └─────────┬─────────┘
+                    │
+                    ▼
+          ┌───────────────────┐
+          │    FRONTEND       │
+          │ React / Next.js   │
+          └─────────┬─────────┘
+                    │
+                    ▼
+          ┌───────────────────┐
+          │      BACKEND      │
+          │ Node / Express    │
+          └───────┬───┬───────┘
+                  │   │
+       ┌──────────┘   └──────────┐
+       ▼                         ▼
+┌──────────────┐        ┌──────────────┐
+│   DATABASE   │        │    KAFKA     │
+│ Mongo / SQL  │        │ Event Stream │
+└──────────────┘        └──────────────┘
+```
 
-Docker Compose
+## 🚀 Engineering Domains
 
-Vercel
-
-Render
-
-npm
-
-VS Code
-
-Postman
-
-Figma
-
-Containerized architecture
-
-                 ┌───────────────────┐
-                 │      CLIENT       │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │    FRONTEND       │
-                 │ React / Next.js   │
-                 └─────────┬─────────┘
-                           │
-                           ▼
-                 ┌───────────────────┐
-                 │      BACKEND      │
-                 │ Node / Express    │
-                 └───────┬───┬───────┘
-                         │   │
-              ┌──────────┘   └──────────┐
-              ▼                         ▼
-       ┌──────────────┐        ┌──────────────┐
-       │   DATABASE   │        │    KAFKA     │
-       │ Mongo / SQL  │        │ Event Stream │
-       └──────────────┘        └──────────────┘
-
-🚀 Engineering Domains
-
-🌍 Real-Time Environmental & Geospatial Systems
+### 🌍 Real-Time Environmental & Geospatial Systems
 
 I have worked with systems involving real-time geospatial visualization, environmental data, map layers, and simulation-oriented workflows.
 
-Relevant technologies
+**Relevant technologies**
 
+```text
 Next.js
    │
    ├── React
@@ -390,53 +319,52 @@ Backend
           │
           ▼
     Real-Time Events
+```
 
 This type of system combines:
 
-Geospatial visualization
+- Geospatial visualization
+- Real-time communication
+- Event streaming
+- Simulation data
+- Interactive maps
+- Frontend state management
 
-Real-time communication
-
-Event streaming
-
-Simulation data
-
-Interactive maps
-
-Frontend state management
-
-🎬 Full-Stack Web Applications
+### 🎬 Full-Stack Web Applications
 
 My full-stack work commonly follows a structure similar to:
 
-                    ┌───────────────┐
-                    │    Browser    │
-                    └───────┬───────┘
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │ React / Next  │
-                    └───────┬───────┘
-                            │
-                        REST / WS
-                            │
-                            ▼
-                    ┌───────────────┐
-                    │ Node / Express│
-                    └───────┬───────┘
-                            │
-              ┌─────────────┼─────────────┐
-              ▼             ▼             ▼
-          MongoDB         MySQL         Kafka
+```text
+          ┌───────────────┐
+          │    Browser    │
+          └───────┬───────┘
+                  │
+                  ▼
+          ┌───────────────┐
+          │ React / Next  │
+          └───────┬───────┘
+                  │
+              REST / WS
+                  │
+                  ▼
+          ┌───────────────┐
+          │ Node / Express│
+          └───────┬───────┘
+                  │
+    ┌─────────────┼─────────────┐
+    ▼             ▼             ▼
+MongoDB         MySQL         Kafka
+```
 
 The goal is to keep each layer understandable, replaceable, testable, and independently evolvable.
 
-📊 Data & Machine Learning
+### 📊 Data & Machine Learning
 
 I also work with data analysis and machine learning workflows for practical software and analytics problems.
 
-Typical workflow
+**Typical workflow**
 
+```text
 Raw Data
    ↓
 Data Cleaning
@@ -452,71 +380,53 @@ Evaluation
 Visualization
    ↓
 Engineering Integration
+```
 
-Technologies
+**Technologies**
 
 <p>
-<img src="https://skillicons.dev/icons?i=python" />
+<img src="https://skillicons.dev/icons?i=python&amp;perline=4" alt="Python" />
 </p>
 
-Python
-
-Pandas
-
-NumPy
-
-Scikit-learn
-
-Matplotlib
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
 
 Example problem domains include:
 
-Prediction
+- Prediction
+- Classification
+- Clustering
+- Regression
+- Time-series analysis
+- Web / user behavior analytics
 
-Classification
+## 🏛️ Software Architecture Principles
 
-Clustering
+1. **Clear Boundaries.** Each module should have a clear responsibility.
 
-Regression
+2. **Loose Coupling.** Components should communicate through explicit contracts rather than hidden dependencies.
 
-Time-series analysis
+3. **High Cohesion.** Related responsibilities should stay together.
 
-Web / user behavior analytics
+4. **Explicit Data Flow.** Data movement should be understandable from request to persistence and event processing.
 
-🏛️ Software Architecture Principles
+5. **Design for Failure.** Distributed systems should assume that components can fail.
 
-01 — Clear Boundaries
+6. **Scale Intentionally.** Do not add complexity before the system requires it.
 
-Each module should have a clear responsibility.
+7. **Optimize With Evidence.** Performance improvements should be guided by measurements rather than assumptions.
 
-02 — Loose Coupling
+## 🔐 Security Mindset
 
-Components should communicate through explicit contracts rather than hidden dependencies.
-
-03 — High Cohesion
-
-Related responsibilities should stay together.
-
-04 — Explicit Data Flow
-
-Data movement should be understandable from request to persistence and event processing.
-
-05 — Design for Failure
-
-Distributed systems should assume that components can fail.
-
-06 — Scale Intentionally
-
-Do not add complexity before the system requires it.
-
-07 — Optimize With Evidence
-
-Performance improvements should be guided by measurements rather than assumptions.
-
-🔐 Security Mindset
+<details>
+<summary>Explore security mindset</summary>
 
 Security is treated as part of system design, not as a final checklist.
 
+```text
 Input
  ↓
 Validation
@@ -530,52 +440,59 @@ Business Rules
 Database Access
  ↓
 Response
+```
 
 Areas I pay attention to include:
 
-Authentication
+- Authentication
+- Authorization
+- Input validation
+- API security
+- Data protection
+- Secure configuration
+- Dependency management
+- Least-privilege principles
 
-Authorization
+</details>
 
-Input validation
+## ⚡ Performance Mindset
 
-API security
-
-Data protection
-
-Secure configuration
-
-Dependency management
-
-Least-privilege principles
-
-⚡ Performance Mindset
+<details>
+<summary>Explore performance mindset</summary>
 
 When optimizing a system, I think in layers:
 
-                    PERFORMANCE
-                         │
-        ┌────────────────┼────────────────┐
-        ▼                ▼                ▼
-     Frontend          Backend          Database
-        │                │                │
-    Rendering         API latency      Indexes
-    Bundling          Caching          Queries
-    Network           Concurrency      Data model
-        │                │                │
-        └────────────────┼────────────────┘
-                         ▼
-                    Measurement
-                         │
-                         ▼
-                    Optimization
+```text
+                PERFORMANCE
+                     │
+    ┌────────────────┼────────────────┐
+    ▼                ▼                ▼
+ Frontend          Backend          Database
+    │                │                │
+Rendering         API latency      Indexes
+Bundling          Caching          Queries
+Network           Concurrency      Data model
+    │                │                │
+    └────────────────┼────────────────┘
+                     ▼
+                Measurement
+                     │
+                     ▼
+                Optimization
+```
 
-🧪 Engineering Quality
+</details>
+
+## 🧪 Engineering Quality
+
+<details>
+<summary>Explore engineering quality</summary>
 
 A feature is not finished simply because it works.
 
 A stronger definition is:
 
+```text
 Correct
   +
 Maintainable
@@ -589,30 +506,27 @@ Secure
 Documented
   +
 Deployable
+```
 
 My development workflow emphasizes:
 
-Meaningful abstractions
+- Meaningful abstractions
+- Consistent naming
+- Type safety
+- Reusable components
+- API contracts
+- Error handling
+- Testing
+- Documentation
+- Version control
+- Debugging and observability
 
-Consistent naming
+</details>
 
-Type safety
+## 📦 Private Projects
 
-Reusable components
-
-API contracts
-
-Error handling
-
-Testing
-
-Documentation
-
-Version control
-
-Debugging and observability
-
-📦 Private Projects
+<details>
+<summary>Explore private projects</summary>
 
 Most of my serious and current projects are maintained as private repositories.
 
@@ -620,6 +534,7 @@ That means the public GitHub profile intentionally does not represent the comple
 
 Instead of publishing proprietary or unfinished repositories, I use this profile to present:
 
+```text
 Engineering Philosophy
         +
 Technical Stack
@@ -631,33 +546,32 @@ Public Experiments
 Open-Source Work
         +
 Professional Direction
+```
 
 Some of the systems I work on involve:
 
-Full-stack web platforms
-
-Real-time applications
-
-Geospatial systems
-
-Event-driven architectures
-
-Data analytics
-
-Machine learning
-
-API platforms
-
-Containerized deployments
-
-System design
+- Full-stack web platforms
+- Real-time applications
+- Geospatial systems
+- Event-driven architectures
+- Data analytics
+- Machine learning
+- API platforms
+- Containerized deployments
+- System design
 
 🔒 Private repository ≠ private engineering capability.
 
 The architecture, engineering decisions, and technical depth behind those systems are what I focus on.
 
-🧭 Current Engineering Direction
+</details>
 
+## 🧭 Current Engineering Direction
+
+<details>
+<summary>Explore current engineering direction</summary>
+
+```text
                     ┌──────────────────────┐
                     │  SENIOR ENGINEERING  │
                     └──────────┬───────────┘
@@ -681,69 +595,74 @@ The architecture, engineering decisions, and technical depth behind those system
                      │ Observability    │
                      │ Maintainability  │
                      └──────────────────┘
+```
 
-🛠️ Selected Tools
+</details>
+
+## 🛠️ Selected Tools
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,python,java,mongodb,mysql,kafka,docker,git,github,tailwind,vite" />
+<img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,python,java,mongodb,mysql,kafka,docker,git,github,tailwind,vite&amp;perline=4" alt="TypeScript, JavaScript, React, Next.js, Node.js, Express, Python, Java, MongoDB, MySQL, Kafka, Docker, Git, GitHub, Tailwind CSS, Vite" />
 </p>
 
-📈 GitHub Analytics
+## 📈 GitHub Analytics
+
+[GitHub profile and contributions](https://github.com/NguyenPhat2412) · [Public repositories](https://github.com/NguyenPhat2412?tab=repositories)
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=NguyenPhat2412&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NguyenPhat2412&layout=compact&theme=transparent&hide_border=true" />
+<img width="495" src="https://streak-stats.demolab.com?user=NguyenPhat2412&amp;theme=transparent&amp;hide_border=true" alt="GitHub contribution streak for NguyenPhat2412" />
 
 </div>
 
-<br/>
+## 🐍 Contribution Activity
 
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=NguyenPhat2412&theme=transparent&hide_border=true" />
-
-</div>
-
-🐍 Contribution Activity
+[![Generate Contribution Snake](https://github.com/NguyenPhat2412/NguyenPhat2412/actions/workflows/snake.yml/badge.svg)](https://github.com/NguyenPhat2412/NguyenPhat2412/actions/workflows/snake.yml)
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
+  <img width="100%" src="https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake.svg" alt="Animated snake following NguyenPhat2412’s GitHub contribution grid" />
 </picture>
 
 </div>
 
+[Open light animation](https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake.svg) · [Open dark animation](https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake-dark.svg)
+
 The contribution animation is generated automatically every 12 hours by [GitHub Actions](https://github.com/NguyenPhat2412/NguyenPhat2412/actions/workflows/snake.yml).
 
-🧑‍💻 Development Philosophy
+## 🧑‍💻 Development Philosophy
 
-                 BUILD
-                   │
-                   ▼
-                MEASURE
-                   │
-                   ▼
-                OBSERVE
-                   │
-                   ▼
-               IMPROVE
-                   │
-                   ▼
-                 SCALE
-                   │
-                   └───────────────► REPEAT
+```text
+  BUILD
+    │
+    ▼
+ MEASURE
+    │
+    ▼
+ OBSERVE
+    │
+    ▼
+IMPROVE
+    │
+    ▼
+  SCALE
+    │
+    └───────────────► REPEAT
+```
 
 I believe good engineering is a continuous process of improving:
 
 architecture → code → performance → reliability → developer experience
 
-🌱 Current Interests
+## 🌱 Current Interests
 
+<details>
+<summary>Explore current interests</summary>
+
+```text
 Software Architecture
 ├── System Design
 ├── Distributed Systems
@@ -776,33 +695,24 @@ Data
 ├── NoSQL
 ├── Data Analytics
 └── Machine Learning
+```
 
-🤝 Collaboration
+</details>
+
+## 🤝 Collaboration
 
 I am interested in working on software where engineering quality matters.
 
 Especially:
 
-Web Platforms
-Real-Time Applications
-Distributed Systems
-Developer Tools
-Data Platforms
-Geospatial Applications
-System Architecture
-Open Source
-
-📬 Contact
-
-<div align="center">
-
-
-
-
-
-
-
-</div>
+- Web Platforms
+- Real-Time Applications
+- Distributed Systems
+- Developer Tools
+- Data Platforms
+- Geospatial Applications
+- System Architecture
+- Open Source
 
 <div align="center">
 

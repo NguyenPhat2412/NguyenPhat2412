@@ -31,10 +31,42 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Validate animated SVG outputs
+        run: |
+          python3 - <<'PYTHON'
+          from pathlib import Path
+          import re
+          import xml.etree.ElementTree as ET
+
+          for name in (
+              "github-contribution-grid-snake.svg",
+              "github-contribution-grid-snake-dark.svg",
+          ):
+              path = Path("dist") / name
+              if not path.is_file() or path.stat().st_size == 0:
+                  raise SystemExit(f"Missing or empty SVG: {path}")
+              root = ET.parse(path).getroot()
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise SystemExit(f"Not an SVG document: {path}")
+              tags = {element.tag.rsplit("}", 1)[-1] for element in root.iter()}
+              styles = "\n".join(
+                  element.text or ""
+                  for element in root.iter("{http://www.w3.org/2000/svg}style")
+              )
+              has_css_animation = (
+                  re.search(r"@(?:-webkit-)?keyframes\s", styles)
+                  and re.search(r"(?:^|[;{])\s*(?:-webkit-)?animation(?:-name)?\s*:", styles)
+              )
+              if not (tags & {"animate", "animateTransform", "animateMotion"} or has_css_animation):
+                  raise SystemExit(f"No animation found in SVG: {path}")
+              print(f"Validated animated SVG: {path}")
+          PYTHON
+
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
           target_branch: output
+          keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
