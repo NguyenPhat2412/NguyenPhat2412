@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Nguyen Phat — Senior Full-Stack Engineer</title>
+<desc id="desc">Thoughtful architecture. Reliable software. A mint-colored system diagram connects interface, API, events, and data.</desc>
+<style>@keyframes lift{0%,80%,100%{transform:translateY(0)}40%{transform:translateY(-5px)}}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}@keyframes flow{to{stroke-dashoffset:-80}}@keyframes reveal{0%{stroke-dashoffset:700}60%,100%{stroke-dashoffset:0}}@keyframes radar{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}.lift{animation:lift 5s ease-in-out infinite}.pulse{animation:pulse 3s ease-in-out infinite}.flow{stroke-dasharray:7 13;animation:flow 4s linear infinite}.chart{stroke-dasharray:700;animation:reveal 5s ease-in-out infinite}.radar{transform-origin:280px 108px;animation:radar 9s linear infinite}@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#253341" stroke-width="0.6"/></pattern></defs>
+<rect width="1200" height="390" rx="20" fill="#0d1117"/>
+<rect x="744" y="1" width="455" height="388" rx="20" fill="url(#grid)"/>
+<path d="M48 42H88" stroke="#7ee7c1" stroke-width="4"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Arial, sans-serif">
+<text x="103" y="48" fill="#9aa9b9" font-size="14" letter-spacing="3">ENGINEER / BUILDER</text>
+<text x="48" y="143" fill="#f0f6fc" font-size="70" font-weight="700" letter-spacing="-3">Nguyen Phat<tspan fill="#7ee7c1">.</tspan></text>
+<text x="51" y="185" fill="#7ee7c1" font-size="24" font-weight="500">Senior Full-Stack Engineer</text>
+<text x="51" y="244" fill="#9aa9b9" font-size="22">Thoughtful architecture.</text>
+<text x="51" y="275" fill="#9aa9b9" font-size="22">Reliable software.</text>
+<path d="M50 317H674" stroke="#253341"/>
+<text x="51" y="351" fill="#9aa9b9" font-size="13" letter-spacing="2">INTERFACES → APIS → EVENTS → DATA</text>
+<g stroke="#7ee7c1" stroke-width="1.5" opacity="0.7"><path d="M888 124V174H1008V224"/><path d="M888 174H789V282H882"/><path d="M1008 262V302H1020"/></g>
+<rect x="784" y="70" width="208" height="58" rx="12" fill="#14242a" stroke="#253341"/>
+<circle cx="809" cy="99" r="4" fill="#7ee7c1"/>
+<text x="826" y="105" fill="#f0f6fc" font-size="17">Interface</text>
+<rect x="906" y="203" width="213" height="58" rx="12" fill="#14242a" stroke="#253341"/>
+<text x="928" y="239" fill="#f0f6fc" font-size="17">API / Services</text>
+<rect x="755" y="279" width="177" height="57" rx="12" fill="#14242a" stroke="#253341"/>
+<text x="779" y="314" fill="#f0f6fc" font-size="17">Event stream</text>
+<rect x="1020" y="280" width="118" height="56" rx="12" fill="#14242a" stroke="#253341"/>
+<text x="1045" y="314" fill="#f0f6fc" font-size="17">Data</text>
+<circle class="pulse" cx="888" cy="174" r="5" fill="#7ee7c1"/>
+<text x="1053" y="48" fill="#9aa9b9" font-size="12" letter-spacing="2">NP / 01</text>
+</g><path class="flow" d="M888 124V174H1008V203M888 174H789V279M1008 262V302H1020" stroke="#7ee7c1" stroke-width="3"/><circle class="pulse" cx="809" cy="99" r="8" stroke="#7ee7c1"/><path class="chart" d="M48 371H220L237 360L254 379L273 360L289 371H674" stroke="#7ee7c1" stroke-width="2" opacity=".7"/></svg>
