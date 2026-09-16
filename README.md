@@ -19,7 +19,7 @@
 
 ## 👨‍💻 A little about me
 
-I'm **Nguyen Phat**, a Senior Full-Stack Engineer working across frontend applications, backend APIs, data, and deployment. I care about clear service boundaries, responsive interfaces, and systems that remain understandable as they grow.
+I'm **Nguyen Phat**, a Fresher Full-Stack Engineer working across frontend applications, backend APIs, data, and deployment. I care about clear service boundaries, responsive interfaces, and systems that remain understandable as they grow.
 
 - **Building across the stack** — React and Next.js interfaces connected to Node.js and Python APIs.
 - **Connecting systems** — real-time experiences with WebSocket, Socket.io, and Kafka.
