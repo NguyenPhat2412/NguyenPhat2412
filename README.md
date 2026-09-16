@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
-    <img src="./assets/header-light.svg" width="100%" alt="Nguyen Phat — Senior Full-Stack Engineer. Thoughtful architecture. Reliable software." />
+    <img src="./assets/header-light.svg" width="100%" alt="Nguyen Phat — Fresher Full-Stack Engineer. Thoughtful architecture. Reliable software." />
   </picture>
 
   <p><strong>Full-stack engineering &nbsp; / &nbsp; Real-time systems &nbsp; / &nbsp; Software architecture</strong></p>
