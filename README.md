@@ -1,10 +1,4 @@
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg" />
-    <img src="./assets/header-light.svg" width="100%" alt="Nguyen Phat — Full-Stack Engineer. Thoughtful architecture. Reliable software." />
-  </picture>
-
+<div align="center"
   <p><strong>Full-stack engineering &nbsp; / &nbsp; Real-time systems &nbsp; / &nbsp; Software architecture</strong></p>
   <p>I build connected software systems, from the interface to the infrastructure.</p>
 
