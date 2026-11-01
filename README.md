@@ -1,5 +1,9 @@
-<div align="center"
-  <p><strong>Full-stack engineering &nbsp; / &nbsp; Real-time systems &nbsp; / &nbsp; Software architecture</strong></p>
+<div align="center">
+  <img src="./generated/master-profile.svg" width="100%" alt="Nguyễn Xuân Phát (@NguyenPhat2412) — GitHub Master Profile Dashboard" />
+
+  <br /><br />
+
+  <p><strong>Full-stack engineering &nbsp; / &nbsp; Real-time systems &nbsp; / &nbsp; Cloud &amp; AI architecture</strong></p>
   <p>I build connected software systems, from the interface to the infrastructure.</p>
 
   <a href="https://github.com/NguyenPhat2412?tab=repositories">Explore repositories ↗</a>
@@ -13,10 +17,10 @@
 
 ## 👨‍💻 A little about me
 
-I'm **Nguyen Phat**, a Fresher Full-Stack Engineer working across frontend applications, backend APIs, data, and deployment. I care about clear service boundaries, responsive interfaces, and systems that remain understandable as they grow.
+I'm **Nguyễn Xuân Phát** (`@NguyenPhat2412`), a Full-Stack, Cloud & AI Engineer working across frontend applications, backend APIs, real-time data pipelines, and cloud deployment. I care about clear service boundaries, responsive interfaces, and systems that remain understandable as they grow.
 
-- **Building across the stack** — React and Next.js interfaces connected to Node.js and Python APIs.
-- **Connecting systems** — real-time experiences with WebSocket, Socket.io, and Kafka.
+- **Building across the stack** — TypeScript, React, Next.js, and React Native interfaces connected to Node.js, Python, and Rust services.
+- **Connecting systems** — real-time experiences with WebSocket, Socket.io, and event-driven Apache Kafka pipelines.
 - **Thinking beyond delivery** — security, testing, observability, and performance are part of the design.
 
 > Understand the problem. Design with intent. Build, measure, and improve.
@@ -35,9 +39,9 @@ I'm **Nguyen Phat**, a Fresher Full-Stack Engineer working across frontend appli
 | **Full-stack platforms** | Typed interfaces, reusable components, API contracts, authentication, and data modeling. |
 | **Real-time & geospatial** | Interactive maps, GeoJSON layers, live events, and environmental data visualization. |
 | **Event-driven systems** | Kafka producers and consumers, asynchronous processing, and decoupled services. |
-| **Data & analytics** | Python workflows for data preparation, analysis, visualization, and machine learning. |
+| **Data & AI workflows** | Python workflows for data preparation, analysis, visualization, and machine learning. |
 
-Many of my current projects live in private repositories. This profile shares my technical focus and public work.
+Many of my engineering commits happen inside private repositories — the live Bento Dashboard above aggregates **100% of both Public & Private contributions** via GitHub GraphQL API v4 every 6 hours.
 
 <a href="https://github.com/NguyenPhat2412?tab=repositories"><strong>Browse my public work →</strong></a>
 
@@ -45,37 +49,42 @@ Many of my current projects live in private repositories. This profile shares my
 
 ## 🛠️ My toolkit
 
-**🎨 Frontend**<br />
+**🎨 Frontend & Mobile**<br />
 React · Next.js · TypeScript · Tailwind CSS · React Native
 
 <p><img src="./assets/stack-frontend.svg" width="612" alt="React, Next.js, TypeScript, JavaScript, Tailwind CSS, Vite, Redux" /></p>
 
-**⚙️ Backend & messaging**<br />
-Node.js · Express · FastAPI · Kafka · WebSocket · Socket.io
+**⚙️ Backend, Systems & Messaging**<br />
+Node.js · Express · FastAPI · Rust · Kafka · WebSocket · Socket.io
 
 <p><img src="./assets/stack-backend.svg" width="612" alt="Node.js, Express, FastAPI, Apache Kafka, Python, Java" /></p>
 
-**🐳 Data & delivery**<br />
-MongoDB · MySQL · SQL Server · Docker · Git · GitHub Actions
+**🐳 Cloud, Data & Delivery**<br />
+AWS · Docker · MongoDB · MySQL · SQL Server · Git · GitHub Actions
 
 <p><img src="./assets/stack-delivery.svg" width="612" alt="MongoDB, MySQL, Docker, Git, GitHub Actions, Postman, Figma" /></p>
 
-**📊 Data science**<br />
+**📊 Data Science & AI**<br />
 Python · Pandas · NumPy · Scikit-learn · Matplotlib
 
 <p><img src="./assets/stack-data.svg" width="184" alt="Python and Scikit-learn" /></p>
 
 <details>
-<summary><strong>More tools and engineering principles</strong></summary>
+<summary><strong>Standalone Stats &amp; Language Cards + Engineering Principles</strong></summary>
 
 <br />
 
+<p align="center">
+  <img src="./generated/stats.svg" width="53%" alt="GitHub Contribution Stats & Dynamic Rank Card" />
+  <img src="./generated/top-langs.svg" width="45%" alt="Most Used Languages Card" />
+</p>
+
 | Area | Also in my toolkit |
 | :--- | :--- |
-| Languages | JavaScript, Java, HTML, CSS |
+| Languages | TypeScript, JavaScript, Python, Rust, Java, HTML, CSS |
 | Frontend | Redux, Leaflet, React Leaflet, GeoJSON |
 | Analytics | Pandas, NumPy, Scikit-learn, Matplotlib |
-| Delivery & tooling | Docker Compose, Vercel, Render, Postman, Figma |
+| Delivery & tooling | AWS, Docker Compose, Vercel, Render, Postman, Figma |
 
 **How I approach a system**
 
@@ -103,7 +112,7 @@ I'm interested in how architecture, performance, and developer experience come t
   <img src="https://raw.githubusercontent.com/NguyenPhat2412/NguyenPhat2412/output/github-contribution-grid-snake.svg" width="100%" alt="Animated snake tracing Nguyen Phat's GitHub contribution grid" />
 </picture>
 
-<sub>Generated every 12 hours by <a href="https://github.com/NguyenPhat2412/NguyenPhat2412/actions/workflows/snake.yml">GitHub Actions</a>. <a href="https://github.com/NguyenPhat2412">View contributions ↗</a></sub>
+<sub>Dashboard updated every 6 hours by <a href="https://github.com/NguyenPhat2412/NguyenPhat2412/actions/workflows/update-stats.yml">Update Stats Action</a> · Snake generated every 12 hours by <a href="https://github.com/NguyenPhat2412/NguyenPhat2412/actions/workflows/snake.yml">Snake Action</a> · <a href="https://github.com/NguyenPhat2412">View contributions ↗</a></sub>
 
 <br /><br />
 
@@ -114,7 +123,7 @@ I'm interested in how architecture, performance, and developer experience come t
   <p>Interested in web platforms, developer tools, real-time systems, and open source.</p>
   <a href="https://github.com/NguyenPhat2412?tab=repositories"><strong>Explore what I'm building ↗</strong></a>
   <br /><br />
-  <sub>NGUYEN PHAT &nbsp; / &nbsp; BUILD · MEASURE · IMPROVE</sub>
+  <sub>NGUYỄN XUÂN PHÁT &nbsp; / &nbsp; BUILD · MEASURE · IMPROVE</sub>
 </div>
 
 <!-- Layout inspiration: https://github.com/MaxRohowsky/best-github-profile-readme

@@ -1,0 +1,83 @@
+name: Update GitHub Master Profile Stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+      - "package.json"
+      - "tsconfig.json"
+      - ".github/workflows/update-stats.yml"
+
+concurrency:
+  group: update-profile-stats
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Type-check TypeScript sources
+        run: npm run typecheck
+
+      - name: Generate Master Profile & Stats SVGs
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
+          GH_USERNAME: NguyenPhat2412
+        run: npm run generate
+
+      - name: Validate XML/SVG syntax of generated outputs
+        run: |
+          python3 - <<'PYTHON'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+
+          expected_files = [
+              Path("generated/master-profile.svg"),
+              Path("generated/stats.svg"),
+              Path("generated/top-langs.svg"),
+          ]
+
+          for svg_path in expected_files:
+              if not svg_path.is_file() or svg_path.stat().st_size == 0:
+                  raise SystemExit(f"Missing or empty SVG file: {svg_path}")
+              root = ET.parse(svg_path).getroot()
+              if root.tag != "{http://www.w3.org/2000/svg}svg":
+                  raise SystemExit(f"Invalid root SVG element in {svg_path}: {root.tag}")
+              print(f"Validated XML/SVG: {svg_path} ({svg_path.stat().st_size} bytes)")
+          PYTHON
+
+      - name: Commit and push updated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated/*.svg
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update github profile stats [skip ci]"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          else
+            echo "No changes in generated/*.svg — skipping commit."
+          fi

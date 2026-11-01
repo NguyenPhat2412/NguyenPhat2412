@@ -1,0 +1,17 @@
+{
+  "name": "nguyenphat2412-profile-dashboard",
+  "version": "1.0.0",
+  "description": "Automated GitHub Master Profile SVG Dashboard (Public + 100% Private Commits, Commit-Prioritized Rank & Bento Glassmorphism UI) for NguyenPhat2412",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/index.ts",
+    "generate:mock": "tsx src/index.ts --mock",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
