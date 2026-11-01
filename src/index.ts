@@ -77,6 +77,12 @@ async function main(): Promise<void> {
     forceMock,
   });
 
+  if (process.env.CI === "true" && stats.isMock && !forceMock) {
+    throw new Error(
+      "Refusing to overwrite generated/*.svg with mock data in CI environment. Check GH_TOKEN secret.",
+    );
+  }
+
   const rank = calculateRank(stats);
 
   console.info(

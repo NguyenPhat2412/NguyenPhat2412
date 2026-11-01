@@ -254,10 +254,9 @@ export function renderMasterProfile(
       `<circle class="twinkle-star" cx="${p.cx}" cy="${p.cy}" r="${p.r}" fill="${escapeXml(p.color)}" style="animation-delay: ${p.delay}; animation-duration: ${p.duration}" />`,
   ).join("\n      ");
 
-  const updatedDateShort = stats.updatedAt.slice(0, 10);
   const syncModeNote = stats.isMock
     ? "Preview Mode • Ready for GH_TOKEN"
-    : `Synced ${updatedDateShort} • GraphQL v4`;
+    : "Live GraphQL v4 • Public + Private";
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" fill="none" role="img" aria-labelledby="masterTitle masterDesc">
   <title id="masterTitle">${escapeXml(stats.displayName)} (@${escapeXml(stats.username)}) — GitHub Master Profile Dashboard</title>

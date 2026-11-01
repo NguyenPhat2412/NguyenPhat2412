@@ -10,6 +10,7 @@ on:
     paths:
       - "src/**"
       - "package.json"
+      - "package-lock.json"
       - "tsconfig.json"
       - ".github/workflows/update-stats.yml"
 
@@ -28,22 +29,22 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "22"
+          cache: "npm"
 
-      - name: Install dependencies
-        run: npm install
+      - name: Install dependencies deterministically
+        run: npm ci
 
       - name: Type-check TypeScript sources
         run: npm run typecheck
 
       - name: Generate Master Profile & Stats SVGs
         env:
+          CI: "true"
           GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
           GH_USERNAME: NguyenPhat2412
         run: npm run generate
@@ -52,6 +53,7 @@ jobs:
         run: |
           python3 - <<'PYTHON'
           from pathlib import Path
+          import re
           import xml.etree.ElementTree as ET
 
           expected_files = [
@@ -60,16 +62,21 @@ jobs:
               Path("generated/top-langs.svg"),
           ]
 
+          amp_re = re.compile(r"&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9a-fA-F]+;)")
+
           for svg_path in expected_files:
               if not svg_path.is_file() or svg_path.stat().st_size == 0:
                   raise SystemExit(f"Missing or empty SVG file: {svg_path}")
-              root = ET.parse(svg_path).getroot()
+              raw = svg_path.read_text(encoding="utf-8")
+              if amp_re.search(raw):
+                  raise SystemExit(f"Unescaped '&' detected in {svg_path}")
+              root = ET.fromstring(raw)
               if root.tag != "{http://www.w3.org/2000/svg}svg":
                   raise SystemExit(f"Invalid root SVG element in {svg_path}: {root.tag}")
               print(f"Validated XML/SVG: {svg_path} ({svg_path.stat().st_size} bytes)")
           PYTHON
 
-      - name: Commit and push updated SVGs
+      - name: Commit and push updated SVGs if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -79,5 +86,5 @@ jobs:
             git pull --rebase origin main
             git push origin HEAD:main
           else
-            echo "No changes in generated/*.svg — skipping commit."
+            echo "Metrics unchanged — skipping commit to keep git history clean."
           fi
