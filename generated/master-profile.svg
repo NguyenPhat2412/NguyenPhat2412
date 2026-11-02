@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" fill="none" role="img" aria-labelledby="masterTitle masterDesc">
   <title id="masterTitle">Nguyễn Xuân Phát (@NguyenPhat2412) — GitHub Master Profile Dashboard</title>
-  <desc id="masterDesc">Bento Grid Glassmorphism GitHub Profile Dashboard showing 2,897 total Public and Private commits, Rank A (Top 15.1%), and Top 8 programming languages.</desc>
+  <desc id="masterDesc">Bento Grid Glassmorphism GitHub Profile Dashboard showing 2,905 total Public and Private commits, Rank A (Top 15.1%), and Top 8 programming languages.</desc>
 
   <defs>
     <clipPath id="canvasClip">
@@ -115,7 +115,7 @@
         stroke-dashoffset: 364.42;
       }
       to {
-        stroke-dashoffset: 55.21;
+        stroke-dashoffset: 55.20;
       }
     }
     .orb-primary {
@@ -145,7 +145,7 @@
     }
     .rank-ring-progress {
       stroke-dasharray: 364.42;
-      stroke-dashoffset: 55.21;
+      stroke-dashoffset: 55.20;
       animation: ringSweep 1.35s cubic-bezier(0.22, 1, 0.36, 1) backwards;
       filter: drop-shadow(0 0 7px #38bdae);
     }
@@ -287,21 +287,21 @@
           <circle cx="8" cy="8" r="3.5" stroke="#ff75a0" stroke-width="1.7" fill="none" /><line x1="0.5" y1="8" x2="4.5" y2="8" stroke="#ff75a0" stroke-width="1.7" stroke-linecap="round" /><line x1="11.5" y1="8" x2="15.5" y2="8" stroke="#ff75a0" stroke-width="1.7" stroke-linecap="round" />
         </g>
         <text x="68" y="213" fill="#c8d3f5" font-size="12.2" font-weight="600">Total Commits<tspan dx="5" fill="#6b749e" font-size="10.2" font-weight="500">(Public + Private)</tspan></text>
-        <text x="330" y="213" text-anchor="end" fill="#ffffff" font-size="13.2" font-weight="700" class="mono">2,897</text>
+        <text x="330" y="213" text-anchor="end" fill="#ffffff" font-size="13.2" font-weight="700" class="mono">2,905</text>
       </g>
       <g class="fade-row" style="animation-delay: 0.08s">
         <g transform="translate(46, 236)">
           <rect x="1.5" y="2.5" width="13" height="12" rx="2.2" stroke="#7dcfff" stroke-width="1.5" fill="none" /><line x1="1.5" y1="6.2" x2="14.5" y2="6.2" stroke="#7dcfff" stroke-width="1.4" /><line x1="5" y1="1" x2="5" y2="3.8" stroke="#7dcfff" stroke-width="1.5" stroke-linecap="round" /><line x1="11" y1="1" x2="11" y2="3.8" stroke="#7dcfff" stroke-width="1.5" stroke-linecap="round" />
         </g>
         <text x="68" y="248" fill="#c8d3f5" font-size="12.2" font-weight="600">Commits This Year<tspan dx="5" fill="#6b749e" font-size="10.2" font-weight="500">(2026)</tspan></text>
-        <text x="330" y="248" text-anchor="end" fill="#ffffff" font-size="13.2" font-weight="700" class="mono">2,581</text>
+        <text x="330" y="248" text-anchor="end" fill="#ffffff" font-size="13.2" font-weight="700" class="mono">2,589</text>
       </g>
       <g class="fade-row" style="animation-delay: 0.12s">
         <g transform="translate(46, 271)">
           <circle cx="4" cy="3.8" r="2" stroke="#bb9af7" stroke-width="1.5" fill="none" /><circle cx="4" cy="12.2" r="2" stroke="#bb9af7" stroke-width="1.5" fill="none" /><circle cx="12" cy="12.2" r="2" stroke="#bb9af7" stroke-width="1.5" fill="none" /><line x1="4" y1="5.8" x2="4" y2="10.2" stroke="#bb9af7" stroke-width="1.5" /><path d="M12 10.2V6.5C12 5 11 4 9.5 4H7.5" stroke="#bb9af7" stroke-width="1.5" fill="none" stroke-linecap="round" />
         </g>
         <text x="68" y="283" fill="#c8d3f5" font-size="12.2" font-weight="600">Pull Requests</text>
-        <text x="330" y="283" text-anchor="end" fill="#ffffff" font-size="13.2" font-weight="700" class="mono">471</text>
+        <text x="330" y="283" text-anchor="end" fill="#ffffff" font-size="13.2" font-weight="700" class="mono">472</text>
       </g>
       <g class="fade-row" style="animation-delay: 0.16s">
         <g transform="translate(46, 306)">
@@ -357,13 +357,13 @@
       <!-- Bottom Ratio Bar: Public vs Private Commits -->
       <g>
         <rect x="48" y="420" width="450" height="74" rx="10" fill="rgba(11, 13, 23, 0.58)" stroke="rgba(122, 162, 247, 0.15)" stroke-width="1" />
-        <text x="62" y="442" fill="#bb9af7" font-size="11.2" font-weight="700">🔒 Private Commits: 2,242 (77.4%)</text>
-        <text x="484" y="442" text-anchor="end" fill="#38bdae" font-size="11.2" font-weight="700">🌐 Public: 655 (22.6%)</text>
+        <text x="62" y="442" fill="#bb9af7" font-size="11.2" font-weight="700">🔒 Private Commits: 2,245 (77.3%)</text>
+        <text x="484" y="442" text-anchor="end" fill="#38bdae" font-size="11.2" font-weight="700">🌐 Public: 660 (22.7%)</text>
 
         <g clip-path="url(#commitSplitClip)">
           <rect x="62" y="454" width="422" height="10" fill="rgba(255, 255, 255, 0.06)" />
-          <rect x="62" y="454" width="326.59" height="10" fill="url(#privateCommitGrad)" />
-          <rect x="388.59" y="454" width="95.41" height="10" fill="url(#publicCommitGrad)" />
+          <rect x="62" y="454" width="326.12" height="10" fill="url(#privateCommitGrad)" />
+          <rect x="388.12" y="454" width="95.88" height="10" fill="url(#publicCommitGrad)" />
         </g>
 
         <text x="62" y="482" fill="#6b749e" font-size="10">Commit-First Rank (50% Weight)</text>
