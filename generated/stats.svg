@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="340" viewBox="0 0 495 340" fill="none" role="img" aria-labelledby="statsCardTitle statsCardDesc">
   <title id="statsCardTitle">Nguyễn Xuân Phát (@NguyenPhat2412) — GitHub Stats &amp; Rank</title>
-  <desc id="statsCardDesc">Total Commits: 3,003 (Public + Private), Rank: A (Top 15.1%).</desc>
+  <desc id="statsCardDesc">Total Commits: 3,136 (Public + Private), Rank: A (Top 15.1%).</desc>
 
   <defs>
     <clipPath id="statsOuterClip">
@@ -43,14 +43,14 @@
     }
     @keyframes ringSweep {
       from { stroke-dashoffset: 326.73; }
-      to { stroke-dashoffset: 49.45; }
+      to { stroke-dashoffset: 49.41; }
     }
     .fade-row {
       animation: fadeInRow 0.5s ease-out backwards;
     }
     .ring-arc {
       stroke-dasharray: 326.73;
-      stroke-dashoffset: 49.45;
+      stroke-dashoffset: 49.41;
       animation: ringSweep 1.25s cubic-bezier(0.22, 1, 0.36, 1) backwards;
       filter: drop-shadow(0 0 6px #38bdae);
     }
@@ -76,12 +76,12 @@
     <g class="fade-row" style="animation-delay: 0.08s">
       <g transform="translate(24, 72)"><circle cx="8" cy="8" r="3.5" stroke="#ff75a0" stroke-width="1.7" fill="none" /><line x1="0.5" y1="8" x2="4.5" y2="8" stroke="#ff75a0" stroke-width="1.7" stroke-linecap="round" /><line x1="11.5" y1="8" x2="15.5" y2="8" stroke="#ff75a0" stroke-width="1.7" stroke-linecap="round" /></g>
       <text x="47" y="84" fill="#c8d3f5" font-size="12.2" font-weight="600">Total Commits<tspan dx="5" fill="#6b749e" font-size="10">(Pub + Priv)</tspan></text>
-      <text x="312" y="84" text-anchor="end" fill="#ffffff" font-size="13.2" font-weight="700" class="mono">3,003</text>
+      <text x="312" y="84" text-anchor="end" fill="#ffffff" font-size="13.2" font-weight="700" class="mono">3,136</text>
     </g>
     <g class="fade-row" style="animation-delay: 0.15s">
       <g transform="translate(24, 103)"><rect x="1.5" y="2.5" width="13" height="12" rx="2.2" stroke="#7dcfff" stroke-width="1.5" fill="none" /><line x1="1.5" y1="6.2" x2="14.5" y2="6.2" stroke="#7dcfff" stroke-width="1.4" /><line x1="5" y1="1" x2="5" y2="3.8" stroke="#7dcfff" stroke-width="1.5" stroke-linecap="round" /><line x1="11" y1="1" x2="11" y2="3.8" stroke="#7dcfff" stroke-width="1.5" stroke-linecap="round" /></g>
       <text x="47" y="115" fill="#c8d3f5" font-size="12.2" font-weight="600">Commits This Year<tspan dx="5" fill="#6b749e" font-size="10">(2026)</tspan></text>
-      <text x="312" y="115" text-anchor="end" fill="#ffffff" font-size="13.2" font-weight="700" class="mono">2,687</text>
+      <text x="312" y="115" text-anchor="end" fill="#ffffff" font-size="13.2" font-weight="700" class="mono">2,820</text>
     </g>
     <g class="fade-row" style="animation-delay: 0.22s">
       <g transform="translate(24, 134)"><circle cx="4" cy="3.8" r="2" stroke="#bb9af7" stroke-width="1.5" fill="none" /><circle cx="4" cy="12.2" r="2" stroke="#bb9af7" stroke-width="1.5" fill="none" /><circle cx="12" cy="12.2" r="2" stroke="#bb9af7" stroke-width="1.5" fill="none" /><line x1="4" y1="5.8" x2="4" y2="10.2" stroke="#bb9af7" stroke-width="1.5" /><path d="M12 10.2V6.5C12 5 11 4 9.5 4H7.5" stroke="#bb9af7" stroke-width="1.5" fill="none" stroke-linecap="round" /></g>
@@ -130,12 +130,12 @@
 
     <!-- Private vs Public Commit Bar -->
     <rect x="22" y="266" width="451" height="54" rx="10" fill="rgba(14, 16, 28, 0.65)" stroke="rgba(122, 162, 247, 0.16)" stroke-width="1" />
-    <text x="34" y="287" fill="#bb9af7" font-size="10.8" font-weight="700">🔒 Private: 2,323 (77.4%)</text>
-    <text x="461" y="287" text-anchor="end" fill="#38bdae" font-size="10.8" font-weight="700">🌐 Public: 680 (22.6%)</text>
+    <text x="34" y="287" fill="#bb9af7" font-size="10.8" font-weight="700">🔒 Private: 2,456 (78.3%)</text>
+    <text x="461" y="287" text-anchor="end" fill="#38bdae" font-size="10.8" font-weight="700">🌐 Public: 680 (21.7%)</text>
     <g clip-path="url(#statsCommitBarClip)">
       <rect x="34" y="299" width="427" height="9" fill="rgba(255, 255, 255, 0.06)" />
-      <rect x="34" y="299" width="330.31" height="9" fill="url(#privGrad)" />
-      <rect x="364.31" y="299" width="96.69" height="9" fill="url(#pubGrad)" />
+      <rect x="34" y="299" width="334.41" height="9" fill="url(#privGrad)" />
+      <rect x="368.41" y="299" width="92.59" height="9" fill="url(#pubGrad)" />
     </g>
   </g>
 </svg>
