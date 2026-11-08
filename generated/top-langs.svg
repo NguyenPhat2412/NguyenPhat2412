@@ -56,8 +56,8 @@
     
     <g clip-path="url(#langsCardStackClip)">
       <rect x="24" y="62" width="372" height="12" fill="rgba(255, 255, 255, 0.06)" />
-      <rect x="24.00" y="62" width="178.56" height="12" fill="#3178c6" />
-      <rect x="202.56" y="62" width="97.46" height="12" fill="#f1e05a" />
+      <rect x="24.00" y="62" width="178.93" height="12" fill="#3178c6" />
+      <rect x="202.93" y="62" width="97.09" height="12" fill="#f1e05a" />
       <rect x="300.02" y="62" width="71.42" height="12" fill="#b07219" />
       <rect x="371.45" y="62" width="20.46" height="12" fill="#3572A5" />
       <rect x="391.91" y="62" width="1.49" height="12" fill="#dea584" />
@@ -71,15 +71,15 @@
       <circle cx="30" cy="100.0" r="4.4" fill="#3178c6" stroke="rgba(255, 255, 255, 0.18)" stroke-width="0.6" />
       <text x="43" y="104.0" fill="#e2e8ff" font-size="12" font-weight="600">TypeScript</text>
       <rect x="172" y="96.0" width="162" height="6.8" rx="3.4" fill="rgba(169, 177, 214, 0.10)" />
-      <rect x="172" y="96.0" width="77.76" height="6.8" rx="3.4" fill="#3178c6" />
-      <text x="396" y="104.0" text-anchor="end" fill="#c0caf5" font-size="11.5" font-weight="700" class="mono">48.0%</text>
+      <rect x="172" y="96.0" width="77.92" height="6.8" rx="3.4" fill="#3178c6" />
+      <text x="396" y="104.0" text-anchor="end" fill="#c0caf5" font-size="11.5" font-weight="700" class="mono">48.1%</text>
     </g>
     <g class="fade-row" style="animation-delay: 0.08s">
       <circle cx="30" cy="126.5" r="4.4" fill="#f1e05a" stroke="rgba(255, 255, 255, 0.18)" stroke-width="0.6" />
       <text x="43" y="130.5" fill="#e2e8ff" font-size="12" font-weight="600">JavaScript</text>
       <rect x="172" y="122.5" width="162" height="6.8" rx="3.4" fill="rgba(169, 177, 214, 0.10)" />
-      <rect x="172" y="122.5" width="42.44" height="6.8" rx="3.4" fill="#f1e05a" />
-      <text x="396" y="130.5" text-anchor="end" fill="#c0caf5" font-size="11.5" font-weight="700" class="mono">26.2%</text>
+      <rect x="172" y="122.5" width="42.28" height="6.8" rx="3.4" fill="#f1e05a" />
+      <text x="396" y="130.5" text-anchor="end" fill="#c0caf5" font-size="11.5" font-weight="700" class="mono">26.1%</text>
     </g>
     <g class="fade-row" style="animation-delay: 0.11s">
       <circle cx="30" cy="153.0" r="4.4" fill="#b07219" stroke="rgba(255, 255, 255, 0.18)" stroke-width="0.6" />
