@@ -57,10 +57,10 @@
     <g clip-path="url(#langsCardStackClip)">
       <rect x="24" y="62" width="372" height="12" fill="rgba(255, 255, 255, 0.06)" />
       <rect x="24.00" y="62" width="182.65" height="12" fill="#3178c6" />
-      <rect x="206.65" y="62" width="92.26" height="12" fill="#f1e05a" />
-      <rect x="298.91" y="62" width="74.03" height="12" fill="#b07219" />
-      <rect x="372.94" y="62" width="19.34" height="12" fill="#3572A5" />
-      <rect x="392.28" y="62" width="1.12" height="12" fill="#dea584" />
+      <rect x="206.65" y="62" width="91.88" height="12" fill="#f1e05a" />
+      <rect x="298.54" y="62" width="74.03" height="12" fill="#b07219" />
+      <rect x="372.56" y="62" width="19.34" height="12" fill="#3572A5" />
+      <rect x="391.91" y="62" width="1.49" height="12" fill="#dea584" />
       <rect x="393.40" y="62" width="1.12" height="12" fill="#ff5a03" />
       <rect x="394.51" y="62" width="0.74" height="12" fill="#89e051" />
       <rect x="395.26" y="62" width="0.74" height="12" fill="#336790" />
@@ -78,8 +78,8 @@
       <circle cx="30" cy="126.5" r="4.4" fill="#f1e05a" stroke="rgba(255, 255, 255, 0.18)" stroke-width="0.6" />
       <text x="43" y="130.5" fill="#e2e8ff" font-size="12" font-weight="600">JavaScript</text>
       <rect x="172" y="122.5" width="162" height="6.8" rx="3.4" fill="rgba(169, 177, 214, 0.10)" />
-      <rect x="172" y="122.5" width="40.18" height="6.8" rx="3.4" fill="#f1e05a" />
-      <text x="396" y="130.5" text-anchor="end" fill="#c0caf5" font-size="11.5" font-weight="700" class="mono">24.8%</text>
+      <rect x="172" y="122.5" width="40.01" height="6.8" rx="3.4" fill="#f1e05a" />
+      <text x="396" y="130.5" text-anchor="end" fill="#c0caf5" font-size="11.5" font-weight="700" class="mono">24.7%</text>
     </g>
     <g class="fade-row" style="animation-delay: 0.11s">
       <circle cx="30" cy="153.0" r="4.4" fill="#b07219" stroke="rgba(255, 255, 255, 0.18)" stroke-width="0.6" />
@@ -100,7 +100,7 @@
       <text x="43" y="210.0" fill="#e2e8ff" font-size="12" font-weight="600">Rust</text>
       <rect x="172" y="202.0" width="162" height="6.8" rx="3.4" fill="rgba(169, 177, 214, 0.10)" />
       <rect x="172" y="202.0" width="3.50" height="6.8" rx="3.4" fill="#dea584" />
-      <text x="396" y="210.0" text-anchor="end" fill="#c0caf5" font-size="11.5" font-weight="700" class="mono">0.3%</text>
+      <text x="396" y="210.0" text-anchor="end" fill="#c0caf5" font-size="11.5" font-weight="700" class="mono">0.4%</text>
     </g>
     <g class="fade-row" style="animation-delay: 0.22s">
       <circle cx="30" cy="232.5" r="4.4" fill="#ff5a03" stroke="rgba(255, 255, 255, 0.18)" stroke-width="0.6" />
